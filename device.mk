@@ -150,8 +150,13 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
+
     android.hardware.power@1.1-impl \
-    android.hardware.power@1.2-impl
+    android.hardware.power@1.2-impl \
+    android.hardware.nfc@1.1-service \
+    NfcNci \
+    Tag \
+    com.android.nfc_extras
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
