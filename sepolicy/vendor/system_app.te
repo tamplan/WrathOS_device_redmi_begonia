@@ -8,3 +8,8 @@ allow system_app sysfs_boot_mode:file r_file_perms;
 
 get_prop(system_app, render_prop)
 get_prop(system_app, vendor_default_prop)
+
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr }; 
