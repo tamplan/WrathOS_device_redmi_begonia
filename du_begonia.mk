@@ -44,5 +44,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Corvus Offical Stuff
-DU_BUILD_TYPE := OFFICIAL 
+ 
