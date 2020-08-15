@@ -135,7 +135,7 @@ ODM_MANIFEST_SKUS += \
     begonia
 
 ODM_MANIFEST_BEGONIA_FILES := $(DEVICE_PATH)/manifest_begonia.xml
-DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Treble
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_VNDK_VERSION := current
@@ -145,7 +145,7 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 BOARD_VNDK_RUNTIME_DISABLE := true
 
 # Sepolicy
-include device/mediatek/sepolicy/sepolicy.mk
+
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
