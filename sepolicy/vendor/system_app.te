@@ -8,5 +8,6 @@ allow system_app sysfs_boot_mode:file r_file_perms;
 
 get_prop(system_app, render_prop)
 get_prop(system_app, vendor_default_prop)
-
+allow system_app tcp_prop:property_service set;
+get_prop(system_app, tcp_prop);
 
