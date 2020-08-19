@@ -6,7 +6,7 @@
     "remote": "github" 
   },
   {
-    "repository" : "CorvusRom-Devices/vendor_redmi_begonia",
+    "repository" : "WrathOS-Devices/vendor_redmi_begonia",
     "target_path": "vendor/redmi/begonia",
     "branch" : "10",
     "remote": "github"

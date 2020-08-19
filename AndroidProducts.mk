@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_begonia.mk
+    $(LOCAL_DIR)/wrath_begonia.mk
